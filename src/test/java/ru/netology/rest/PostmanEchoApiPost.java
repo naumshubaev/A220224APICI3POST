@@ -17,7 +17,7 @@ class PostmanEchoApiPost {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("data2202251859"))
+                .body("data", equalTo("INVALIDdata2202251859"))
         ;
     }
 }
